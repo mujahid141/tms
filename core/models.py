@@ -13,7 +13,6 @@ class Category(models.Model):
     
 
 class Task(models.Model):
-    taskId = models.UUIDField(auto_created=True)
     taskName = models.CharField(max_length= 255)
     discription = models.CharField(max_length=255)
     user = models.ForeignKey(User, on_delete=models.PROTECT)
