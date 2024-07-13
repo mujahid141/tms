@@ -42,3 +42,34 @@ python manage.py createsuperuser
 Run the development server:
 
 python manage.py runserver
+
+tms/
+│
+├── manage.py
+├── README.md
+├── requirements.txt
+├── db.sqlite3
+├── env/
+│
+├── tms/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│
+├── core/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── templates/
+│       └── registration/
+│           ├── login.html
+│           ├── register.html
+|           |── tasks.html
+│
